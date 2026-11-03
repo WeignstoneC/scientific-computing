@@ -1,20 +1,22 @@
-BIT 2118: Scientific Computing
-1. About this repository
+#BIT 2118: Scientific Computing
+#1. About this repository
 
 This repository contains my work on the BIT 2118 group work brief, which covers 19 numerical-methods tasks in Python. The tasks were discussed in a group, but this repository is my own individual submission.
 
-For every task I:
+#For every task I:
 
 Identified the inputs and the mathematical operation the program performs.
 Changed at least one input or parameter and explained how the result changed.
 Explained the output in words and interpreted any graph.
 Modified the program to solve a different but related real-world case, documenting the new assumptions, input data, output and interpretation.
-2. Repository structure
+
+#2. Repository structure
 Folder	Tasks covered
 TASK 1-8	Prerequisite, NumPy, vectorization, floating-point errors, matrix algebra, linear systems, LU decomposition, iterative methods
 numerical-methods-task-9-12	Eigenvalues, bisection and fixed-point, Newton-Raphson and secant, nonlinear equations
 TASK 13-20	Interpolation, curve fitting, differentiation, integration, ODEs, optimization, Monte Carlo
-3. Task overview
+
+#3. Task overview
 Task	Topic	Main tool	Real-world case explored
 2	NumPy arrays and numerical computation	numpy	Weather-station / IoT sensor readings
 3	Mathematical functions and vectorization	numpy, timeit	Network latency data, loop vs. vectorized speed
@@ -38,7 +40,7 @@ Task	Topic	Main tool	Real-world case explored
 
 The real-world cases for Tasks 8 to 12 are my modified versions. For the other tasks the table lists the example from the brief, and my modified case for each is documented in the task's folder.
 
-4. Key results (Tasks 8 to 12)
+#4. Key results (Tasks 8 to 12)
 Task	Finding
 8	Gauss-Seidel needs about half the iterations of Jacobi (75 vs. 150 for the original system). More grid points increase iterations sharply.
 9	Dominant eigenvalue 2.5616 for the original network. Adding one link makes all nodes equally important (eigenvalue 3.0).
